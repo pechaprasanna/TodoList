@@ -1,0 +1,61 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 80px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li {
+   list-style: none;
+}
+
+.delButton{
+  margin-left: 10px;
+}
+
+.btn{
+  margin-left: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 5px 10px;
+
+}
+
+#first{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.userField, .theList, .shopList{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.shopList{
+  font-size: 20px;
+}
+
+.theList{
+  text-decoration: underline;
+  font-size: 40px;
+}
